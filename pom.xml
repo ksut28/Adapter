@@ -16,6 +16,7 @@
 	<description>Demo Spring boot project for Yojaka Adapter Fabricator</description>
 	<properties>
 		<java.version>11</java.version>
+		<start-class>com.amazon.yojakaadapterfabricator.demo.YojakaAdapterFabricatorApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -57,7 +58,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.baeldung.demo.DemoApplication</mainClass>
+					<mainClass>com.amazon.yojakaadapterfabricator.demo.YojakaAdapterFabricatorApplication</mainClass>
 					<layout>JAR</layout>
 				</configuration>
 			</plugin>
